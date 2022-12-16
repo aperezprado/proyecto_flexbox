@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-weight: lighter;
+}
+.bold{
+    font-weight: bold;
+}
+.main{
+    display: flex;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    background-color: white;
+    border-right: 1px solid #bec1bb;
+}
+.column img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%; 
+    margin: 0.8em;
+}
+.principal{
+    padding: 10px;
+    border: 1px solid #bec1bb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 1px 5px #bec1bb;
+}
+.active, .inactive{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+.icons i{
+    color: #bec1bb;
+}
+.muted{
+    color:#bec1bb;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3em 0;
+}
+button{
+    background-color: #a491d2;
+    border: 0;
+    color:white;
+   padding: 20px 30px;
+   font-size: 1.5em;
+}
+button:hover{
+    background-color: #cdc3e6;
+}
+button:focus{
+    background-color: #bec1bb;
+}
+.active h3{
+    font-family: 'Roboto', sans-serif;
+}
+p, .inactive h3{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.column p{
+    font-size: 14px;
+}
+.column h3{
+    margin: 0;
+    font-weight: 400;
+}
+.content{
+    background-color: #e8ebe4;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content h1{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.content .logo img{
+    width: 300px;
+   
+}
+.content .texto{
+    text-align: center;
+}
+
