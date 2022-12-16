@@ -17,7 +17,6 @@ p{
     justify-content: center;
     flex-basis: 20%;
     min-width: 350px;
-    height: 100vh;
     background-color: white;
     border-right: 1px solid #bec1bb;
 }
